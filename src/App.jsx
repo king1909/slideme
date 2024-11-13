@@ -11,6 +11,7 @@ import AdminManagement from './components/Admin Management/AdminManagement'
 import Permission from './components/Permission/Permission'
 import AccountStatus from './components/Account Status/AccountStatus'
 import AdminAccout from './components/Admin Account Management/AdminAccout'
+import Banner from './components/Banner/Banner'
 
 function App() {
     const [slide, setSlide] = useState(false)
@@ -33,6 +34,7 @@ function App() {
                             <Route path='/review' element={<Review />} />
                             <Route path='status' element={<AccountStatus />} />
                             <Route path='adminaccmanagement' element={<AdminAccout />} />
+                            <Route path='/banner' element={<Banner />} />
                         </Routes>
                     </div>
                 </div>

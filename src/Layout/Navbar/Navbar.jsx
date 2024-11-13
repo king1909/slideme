@@ -23,7 +23,7 @@ function Sidebar({ slide }) {
                 <Link to="/review"><button className={`my-1 menu-item ${currentTab.pathname === '/review' && 'active'}`}>จัดการช้อมูลรีวิว</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>User Management</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>Provider Management</button></Link>
-                <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>Banner Management</button></Link>
+                <Link to='/banner'><button className={`my-1 menu-item ${currentTab.pathname === '/banner' && 'active'}`}>Banner Management</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>การใช้งานเว็บไซต์</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>เกี่ยวกับเรา</button></Link>
             </ul>
