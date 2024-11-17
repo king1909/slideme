@@ -12,6 +12,8 @@ import Permission from './components/Permission/Permission'
 import AccountStatus from './components/Account Status/AccountStatus'
 import AdminAccout from './components/Admin Account Management/AdminAccout'
 import Banner from './components/Banner/Banner'
+import PriceManagement from './components/Price Management/Price Management'
+import EditPrice from './components/Price Management/Edit Price/Edit Price'
 
 function App() {
     const [slide, setSlide] = useState(false)
@@ -35,6 +37,8 @@ function App() {
                             <Route path='status' element={<AccountStatus />} />
                             <Route path='adminaccmanagement' element={<AdminAccout />} />
                             <Route path='/banner' element={<Banner />} />
+                            <Route path="/pricemanagement" element={<PriceManagement />} />
+                            <Route path="/edit-price/:id" element={<EditPrice />} />
                         </Routes>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Sidebar({ slide }) {
                 <Link to='/status'><button className={`my-1 menu-item ${currentTab.pathname === '/status' && 'active'}`}>สถานะบัญชี</button></Link>
                 <Link to='/adminaccmanagement'><button className={`my-1 menu-item ${currentTab.pathname === '/adminaccmanagement' && 'active'}`}>จัดการบัญชี Admin</button></Link>
                 <Link to='/'><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>จัดการประเภทสไลด์</button></Link>
-                <Link to=''> <button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>จัดการอัตราค่าบริการ</button></Link>
+                <Link to='/pricemanagement'> <button className={`my-1 menu-item ${currentTab.pathname === '/pricemanagement' && 'active'}`}>จัดการอัตราค่าบริการ</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>ตรวจสอบ Order</button></Link>
                 <Link to=''><button className={`my-1 menu-item ${currentTab.pathname === '' && 'active'}`}>ตรวจสอบการสมัคร</button></Link>
                 <Link to="/review"><button className={`my-1 menu-item ${currentTab.pathname === '/review' && 'active'}`}>จัดการช้อมูลรีวิว</button></Link>
